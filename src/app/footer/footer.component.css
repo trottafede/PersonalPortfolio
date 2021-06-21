@@ -15,6 +15,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
+  color: skyblue;
 }
 
 footer a {
