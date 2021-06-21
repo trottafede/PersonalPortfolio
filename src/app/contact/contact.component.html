@@ -1,21 +1,42 @@
 <div class="col-md-12 d-flex justify-content-center">
   <form class="row g-3">
-    <div class="col-md-12">
-      <label for="name" class="form-label">Name</label>
-      <input type="text" class="form-control" id="name" />
+    <div class="form-floating mb-3 mt-4">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Name"
+      />
+      <label for="floatingInput">Name</label>
     </div>
-    <div class="col-md-12">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" />
-    </div>
-    <div class="col-md-12">
-      <label for="number" class="form-label">Number</label>
-      <input type="text" class="form-control" id="number" />
+    <div class="form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="name@example.com"
+      />
+      <label for="floatingInput">Email address</label>
     </div>
 
-    <div class="mb-3">
-      <label for="message" class="form-label">Messgae</label>
-      <textarea class="form-control" id="message" rows="3"></textarea>
+    <div class="form-floating mb-3 mt-4">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="number"
+      />
+      <label for="floatingInput">Number</label>
+    </div>
+
+    <div class="form-floating">
+      <textarea
+        class="form-control"
+        placeholder="Leave a comment here"
+        id="floatingTextarea2"
+        style="height: 100px"
+      ></textarea>
+      <label for="floatingTextarea2">Comments</label>
     </div>
 
     <div class="col-12 mb-4">
