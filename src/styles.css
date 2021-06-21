@@ -10,6 +10,18 @@ body {
   }
 
   .mediaQuery {
-    display: none;
+    text-align: center;
+  }
+
+  .my-card-style {
+    margin-bottom: 30px;
+  }
+
+  img:hover {
+    -webkit-transform: scale(0) !important;
+    transform: scale(1) !important;
+    box-shadow: none !important;
+    border: none !important;
+    cursor: pointer;
   }
 }
